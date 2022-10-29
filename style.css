@@ -1,0 +1,238 @@
+body{
+    overflow-x: hidden;
+}
+
+.main{
+    width: 50%;
+
+}
+
+
+img{
+    height: 150px;
+    border: 25%;
+}
+
+
+body{
+    background-color: black;
+}
+
+.recipe{
+    color: green;
+    background-color: aliceblue;
+}
+
+
+.main-item{
+    position: relative;
+}
+
+.layer{
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+
+
+.layer2{
+    background-color: rgba(255, 255, 255, 0.411);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+    text-align: center;
+    overflow: hidden;
+}
+
+.c{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.473);
+  
+}
+
+.c img{
+    width: 100%;
+}
+.c img:hover .layer2{
+opacity: 1;
+}
+
+.fa-city{
+    color:brown;
+    text-align: center;
+}
+
+.desc{
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.desc p,h2{
+    color: white;
+}
+.fa-bowl-food{
+    color:#9ee650ab ;
+}
+
+
+.main-side{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+   position: relative;
+}
+
+.black-side{
+    background-color: black;
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.black-side ul{
+    list-style: none;
+  
+}
+
+.black-side ul li a{
+   margin: auto;
+   text-decoration: none;
+   color: white;
+}
+
+.fa-facebook{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 370px;
+}
+
+.fa-twitter{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 360px;
+    padding-left: -15px;
+}
+
+.z{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 360px;
+    padding-left: -15px;
+}
+.black-side p{
+    color: white;
+}
+
+
+.main-side img{
+    width: 13%;
+    height: 8%;
+  position: absolute;
+  right:7px;
+  top: 15px;
+}
+
+.fa-align-justify{
+    width: 13%;
+    height: 8%;
+  position: absolute;
+  right:5px;
+  top:50%;  
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.e{
+    width: 13%;
+    height: 8%;
+  position: absolute;
+  right:5px;
+  top:90%;  
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.fa-share-nodes{
+    width: 13%;
+    height: 8%;
+  position: absolute;
+  right:5px;
+  top:95%;  
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.fa-xmark{
+    width: 13%;
+    height: 8%;
+  position: absolute;
+  right:5px;
+  top:50%;  
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  display: none;  
+}
+
+input{
+   width: 200px;
+   background-color: black;
+   height: 50px;
+   text-align: center;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin-left: 480px;
+    border:bold 3px red;
+    color: red;
+    background-color: transparent;
+}
+
+.f{
+    margin-top: 100px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.f h2{
+    font-size: 50px;
+}
+
+
+.loading-screen{
+    inset: 0;
+    background-color: black;
+    z-index: 9999;
+    display: flex;
+}
+
+.search input{
+   margin: auto;
+    text-align: center;
+    padding-right: 0px;
+    width:380px;
+}
+.search{
+    text-align: center;
+    margin-top: 30px;
+}
